@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uchat-universal chat app</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="Js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <img class="logo" src="icons8-chat-80.png" alt="logo" />
+      <h1>Welcome to Uchat-universal chat</h1>
+    </nav>
+    <div class="container">
+      <div class="message right">pratik: hi</div>
+      <div class="message left">roy: hey</div>
+    </div>
+    <div class="send">
+      <form action="#" id="message-container">
+        <input type="text" name="messageinp" id="messageinp" />
+        <button class="btn" type="submit">send</button>
+      </form>
+    </div>
+  </body>
+</html>
